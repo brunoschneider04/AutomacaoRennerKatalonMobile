@@ -4,7 +4,26 @@
    <name>android.widget.RadioButton</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>xpath=//*[@text='Normal']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RadioGroup[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.RadioButton[1][count(. | //*[@class = 'android.widget.RadioButton' and @index = '0' and @resource-id = 'br.com.lojasrenner:id/checkout_shipping_selector' and @package = 'br.com.lojasrenner' and @checkable = 'true' and @checked = 'false' and @clickable = 'true' and @enabled = 'true' and @focusable = 'true' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'false' and @password = 'false' and @selected = 'false' and @x = '72' and @y = '1402' and @width = '88' and @height = '88' and @bounds = '[72,1402][160,1490]' and @displayed = 'true' and (text() = '' or . = '')]) = count(//*[@class = 'android.widget.RadioButton' and @index = '0' and @resource-id = 'br.com.lojasrenner:id/checkout_shipping_selector' and @package = 'br.com.lojasrenner' and @checkable = 'true' and @checked = 'false' and @clickable = 'true' and @enabled = 'true' and @focusable = 'true' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'false' and @password = 'false' and @selected = 'false' and @x = '72' and @y = '1402' and @width = '88' and @height = '88' and @bounds = '[72,1402][160,1490]' and @displayed = 'true' and (text() = '' or . = '')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -160,6 +179,12 @@
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RadioGroup[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.RadioButton[1]</value>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@text='Normal']</value>
+   </webElementXpaths>
    <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RadioGroup[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.RadioButton[1]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

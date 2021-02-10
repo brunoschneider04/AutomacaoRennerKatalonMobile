@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>cartaoPresente_descontoFuncionario_cupom</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0b52335-e261-4398-842e-aedc269fd5ac</testCaseGuid>
+</TestCaseEntity>
